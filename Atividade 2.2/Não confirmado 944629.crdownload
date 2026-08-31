@@ -1,0 +1,60 @@
+from turtle import *
+from time import sleep
+t = Turtle()
+
+
+# nepal- primeiro triangulo
+t.fillcolor("#D5113C")
+t.begin_fill()
+t.rt(90)
+t.fd(220)
+t.lt(90)
+t.fd(150)
+t.lt(130)
+t.fd(140)
+# segundo triagulo
+t.rt(130)
+t.fd(90)
+t.lt(145)
+t.fd(100)
+t.end_fill()
+
+
+
+
+
+# Italia
+t.fillcolor("#008D45")
+t.begin_fill()
+for cont in range(2):
+    t.fd(50)
+    t.rt(90)
+    t.fd(100)
+    t.rt(90)
+t.fd(50)
+t.end_fill()
+for cont in range(2):
+    t.fd(50)
+    t.rt(90)
+    t.fd(100)
+    t.rt(90)
+t.fd(50)
+t.fillcolor("#C82936")
+t.begin_fill()
+for cont in range(2):
+    t.fd(50)
+    t.rt(90)
+    t.fd(100)
+    t.rt(90)
+t.end_fill()
+
+t.sleep(3)
+t.clear()
+
+
+
+
+
+
+
+mainloop()
