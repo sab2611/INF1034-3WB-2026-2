@@ -1,4 +1,4 @@
-from pygame import *
+from pygame import*
 
 init()
 screen = display.set_mode((1280,720))
