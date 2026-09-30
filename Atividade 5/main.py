@@ -69,7 +69,7 @@ while running:
 
     # Desenhando imagem
 
-   # screen.blit(hollow_img(300, 300))
+    screen.blit(hollow_img,(300, 300))
     # fonte
     # audio 
 
